@@ -1,0 +1,24 @@
+{
+  "name": "testing-workshop",
+  "version": "0.0.1",
+  "description": "Exercises for learning testing with mocha",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -R spec"
+  },
+  "keywords": [
+    "workshop", "testing", "mocha", "supertest"
+  ],
+  "author": "Stefanie Lauer",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0",
+    "rewire": "^2.5.2",
+    "supertest": "^2.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "request": "^2.75.0"
+  }
+}
