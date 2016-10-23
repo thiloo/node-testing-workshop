@@ -1,5 +1,5 @@
 {
-  "name": "testing-workshop",
+  "name": "node-testing-workshop",
   "version": "0.0.1",
   "description": "Exercises for learning testing with mocha",
   "scripts": {
