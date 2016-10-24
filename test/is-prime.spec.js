@@ -17,7 +17,7 @@ describe('isPrime', function () {
         done();
     });
 
-    it('should return true for 4', function (done) {
+    it('should return false for 4', function (done) {
         expect(isPrime(4)).to.be.false;
         done();
     });
